@@ -1,0 +1,21 @@
+{
+  "name": "how-big",
+  "description": "tell be how large directories are",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/how-big",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/how-big.git"
+  },
+  "dependencies": {
+    "pull-stream": "2.20",
+    "pull-fs": "1.1.3",
+    "pull-traverse": "1.0"
+  },
+  "bin": "./index.js",
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"  
+}
