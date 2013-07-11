@@ -16,8 +16,6 @@ function howBig (dir, cb) {
             fs.lstat(file, function (err, stat) {
               if(!stat.isFile() && !stat.isDirectory()) return cb(null, null)
               if(stat.isSymbolicLink()) return cb(null, null)
-              if(Math.random() < 0.001)
-                console.log(stat.size, file)
               cb(err, {file: file, size: stat.size})
             })
           }),
