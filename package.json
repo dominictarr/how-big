@@ -1,7 +1,7 @@
 {
   "name": "how-big",
   "description": "tell be how large directories are",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/dominictarr/how-big",
   "repository": {
     "type": "git",
