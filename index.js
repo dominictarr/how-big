@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var pt = require('pull-traverse')
 var pull = require('pull-stream')
 var pfs = require('pull-fs')
